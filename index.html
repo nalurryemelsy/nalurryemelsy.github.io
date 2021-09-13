@@ -1,0 +1,206 @@
+<?php
+    include 'Koneksi/Konek.php';
+    $data = mysqli_query($koneksi, "select *from mahasiswa");
+?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Biodata</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nalurry Emelsy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <div class="jumbotron mt-5 bg-info py-4 pt-5 pb-4 " style="background-image: url(Gambar/Background.jpg); background-size: cover;">
+        <div class="container" style="text-align: center; ">
+            <img class="rounded-circle" src="Gambar/lurry.jpg" alt="profile" width="100px" style="border: 2px solid black;">
+          <h1 class="display-4">Nalurry Emelsy</h1>
+          <p class="lead">Diklat Junior Web Developer || web design using bootstrap</p>
+        </div>
+      </div>
+      <div class="container mt-5 mb-5 ">
+        <h1 class="display-6 fw-bold text" align="center">About Me</h1><br>
+        <div class="row">
+            <div class="col">
+              <tr>
+                <h4 align ="center">Biodata</h4>
+                </tr>
+              <table style="width: 680px;">
+              <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td>Nalurry Emelsy</td>
+                </tr>
+                <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td>:</td>
+                <td>Inderapura, 11 Mei 2000</td>
+                </tr>
+                <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>Perempuan</td>
+                </tr>
+                <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td>Kudo-kudo, Inderapura, Pesisir Selatan</td>
+                </tr>
+                <tr>
+                <td>Pekerjaan</td>
+                <td>:</td>
+                <td>Mahasiswa</td>
+                </tr>
+                <tr>
+                  <td>Link Sosial Media:</td>
+                  <td>:</td>
+                    <td><a href ="https://www.instagram.com/nalurry_emelsy">
+                      <img src = "Gambar/logo ig.jpg" width = "30px" height = "30px"></a> 
+                     <a href = "https://twitter.com/nalurryemelsy20?s=09">  
+                      <img src = "Gambar/logo twitter.png" width = "30px" height = "30px"></a>
+                     <a href = "https://youtube.com/channel/UCY6zIo2jhs-wuR3rQ6h7eSw">  
+                      <img src = "Gambar/logo youtube.jpg" width = "30px" height = "30px"></a></td>
+                  </tr>
+                </table>
+                </div>
+            <div class="col">
+              <h4>Pendidikan</h4>
+              <p class="card-text">SD N 02 Pasar Sebelah (2006-2010)</p>
+              <p class="card-text">SD N 05 Hilalang (2010-2012)</p>
+              <p class="card-text">SMP N 1 Simpang Lama (2012-2015)</p>
+              <p class="card-text">SMA N 1 Pancung Soal (2015-2018)</p>
+              <p class="card-text">Universitas Negeri Padang (2019-sekarang)</p>
+              </div>
+                </div>
+            </div>
+      <div class="container mt-5 mb-5">
+          <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Gambar/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Gambar/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Gambar/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Gambar/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Gambar/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Gambar/6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="Gambar/lurry.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    <div class="container-fluid">
+      <div class="text-white bg-dark mb-3">
+        <div class="text-center">
+        <div class="title">Diklat Junior Web Developer
+        <p class="text">Copyright @2021</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
